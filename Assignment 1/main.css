@@ -3,7 +3,7 @@
 
 /* These are my styles */
 body{
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -11,15 +11,111 @@ p{
   line-height: 1.4;
   color: #7f969e;
 }
-.whitebackgroundcontainer{
+section.Whitebackgroundcontainer{
   background-color: White;
+  padding: 50px 0;
 }
 .Greybackgroundcontainer{
-  background-color: #EDEff3
+  background-color: #EDEff3;
 }
 .Greybackgroundcontainerlast{
-  background-color: #EDEff3
+  background-color: #EDEff3;
 }
 .footerdarkgrey{
-  background-color: #504f4f
+  background-color: #504f4f;
+  color: #c7c5c5;
+}
+
+section.Whitebackgroundcontainer h2{
+  color: #0a465B;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.Whitebackgroundcontainer p{
+      color: #7f969e;
+      max-width: 900px;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px 0;
+      line-height: 1.4;
+      margin: auto;
+
+}
+section.Whitebackgroundcontainer p span{
+  color: #FFA500;
+}
+
+section.Greybackgroundcontainer h2{
+  color: #0a465B;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.Greybackgroundcontainer p{
+      color: #7f969e;
+      max-width: 900px;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px 0;
+      line-height: 1.4;
+      margin: auto;
+      height: 100%;
+    }
+
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer p{
+      color: #7f969e;
+      background-color: white;
+      max-width: 900px;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px 0;
+      line-height: 1.4;
+      margin: auto;
+}
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer h3{
+    background-color: #107698;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 25px 20px 25px;
+    font-variant: small-caps;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #fff;
+    font-weight: 300;
+}
+section.whitebackgroundcontainernoboxes h2{
+  color: #0a465B;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.whitebackgroundcontainernoboxes p{
+      color: #7f969e;
+      background-color: white;
+      max-width: 900px;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px 0;
+      line-height: 1.4;
+      margin: auto;
+}
+section.whitebackgroundcontainernoboxes div.flexcontainer article.parttime h4{
+  font-size: 18px;
+  color: #0a465b;
+  border-bottom: 2px #FDB530 solid;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    font-weight: 700;
 }
