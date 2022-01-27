@@ -2,6 +2,18 @@
 
 
 /* These are my styles */
+header{
+  background-color: #2A2A2A;
+    box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 50%);
+}
+ .Ourservices{
+  background-color: #107698;
+    color: white;
+}
+
+
+
+
 body{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -64,15 +76,14 @@ section.Greybackgroundcontainer p{
       padding: 10px 0;
       line-height: 1.4;
       margin: auto;
-      height: 100%;
     }
 
 section.Greybackgroundcontainer div.Greybackgroundflexcontainer p{
       color: #7f969e;
       background-color: white;
-      max-width: 900px;
+      max-width: 263px;
       text-align: center;
-      font-size: 18px;
+      font-size: 16px;
       padding: 10px 0;
       line-height: 1.4;
       margin: auto;
@@ -118,4 +129,112 @@ section.whitebackgroundcontainernoboxes div.flexcontainer article.parttime h4{
     padding-bottom: 15px;
     display: inline-block;
     font-weight: 700;
+}
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer article.strategyconsulting p span{
+  color: #FFA500;
+}
+
+
+
+.Greybackgroundcontainer .Greybackgroundflexcontainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 32px;
+  width: 1100px;
+  margin-top:48px;
+}
+.flexcontainer article.parttime{
+  max-width: 350px;
+}
+.Whitebackgroundcontainer,.Greybackgroundcontainer, .whitebackgroundcontainernoboxes,.Greybackgroundcontainer, .Greybackgroundcontainerlast, .footerdarkgrey{
+  padding: 54px 0;
+}
+
+
+.flexcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 1100px;
+  margin: 48px auto 0;
+}
+
+ section.Greybackgroundcontainer article.strategyconsulting h3{
+   font-size: 16px;
+   font-weight: 300;
+   padding: 0 16px;
+   min-height: 80px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+
+div.Greybackgroundflexcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 1100px;
+  margin: 48px auto 0;
+}
+
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 48px;
+  width: 1100px;
+}
+
+  section.Greybackgroundcontainer article.strategyconsulting p{
+    border-top: 5px solid #d1d1d0;
+    padding: 24px 20px;
+    box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+    display: inline-block;
+    width: 260px;
+    height: 220px;
+}
+
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer article p{
+  border-top: 5px solid #d1d1d0;
+  padding: 24px 20px;
+  box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+  display: inline-block;
+  width: 260px;
+  height: 220px;
+}
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer article h3{
+  font-size: 16px;
+}
+
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer article p span{
+  color: Orange;
+}
+
+section.Greybackgroundcontainerlast h2{
+  font-size: 34px;
+      font-weight: 300;
+      color: #0a465b;
+      text-align: center;
+      margin-bottom: 32px;
+  }
+div.imgtrustedby img{
+  display: block;
+    margin: 24px auto 0;
+}
+
+
+.footerdarkgrey {
+  padding: 40px 0;
+    background-color: #504f4f;
+    text-align: center;
+    color: #c7c5c5;
+    font-size: 18px;
+    line-height: 1.4;
+    display: block;
 }
