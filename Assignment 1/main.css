@@ -15,9 +15,13 @@
  text-transform: uppercase;
  }
 
- li.ContactUs a{
+nav ul li#ContactUs a{
    color: #FDB530;
  }
+
+  /* li.ContactUs{
+    color: inherit;
+  } */
 
 nav.navtop li a{
   color: #d4d4d4;
