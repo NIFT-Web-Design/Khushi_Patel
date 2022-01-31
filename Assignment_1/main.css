@@ -9,10 +9,14 @@
 }
 
  nav.navtop{
- padding: 7px 15px 6px;
+ padding: 7px 15px;
  border-radius: 2px;
  display: inline-block;
  text-transform: uppercase;
+ }
+
+ nav.navtop ul.ulourservice{
+   padding: 7px 15px;
  }
 
 nav ul li#ContactUs a{
@@ -27,9 +31,10 @@ nav.navtop li a{
   color: #d4d4d4;
 }
 
- nav.navtop li{
+ nav.navtop li {
    display: inline-block;
-    padding: 7px 15px 6px;
+    padding: 7px 15px;
+    font-weight: 600;
  }
 
  /*this is the code segment to hide underline*/
