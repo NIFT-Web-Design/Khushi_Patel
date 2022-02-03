@@ -308,93 +308,137 @@ section.Greybackgroundcontainerlast h2{
       text-align: center;
       margin-bottom: 32px;
   }
-div.imgtrustedby img{
-  display: block;
-    margin: 24px auto 0;
+  #smallBox {
+  height: 350px;
 }
 
-
-.getInTouch div{
-  display: flex;
-  justify-content: space-between;
-  width: 600px;
-  margin: 0 auto;
-}
-
-.getInTouch section div:first-of-type > div{
-   font-size: 18px;
-   color: grey;
-   border-top: 1px solid #107698;
-   border-bottom: 1px solid #107698;
-   padding: 8px 24px;
-}
-
-section.getInTouch input{
-  background-color: #107698;
-  color: white;
-  font-size: 18px;
-  padding: 12px 24px;
-  width: 200px;
-  border-radius: 6px;
-  border: 2px solid orange;
-  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
-  margin-left: 35px;
-  margin-top: 35px;
-}
-
-section.getInTouch div.imgleft img{
-  border-radius: 50%;
-  border: 6px solid Orange;
-  margin-left: 15px;
-  display: block;
-  margin-bottom: 25px;
-}
-
-section.getInTouch h2{
-  font-size: 32px;
-    font-weight: 300;
-    color: #0a465b;
-    text-align: center;
-    margin-bottom: 32px;
-}
-
-/* section.getInTouch div.getInTouchContainer{
+ .Services #getInTouch h2 {
   color: #0a465b;
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 300;
   text-align: center;
-  margin-bottom: 32px;
+  padding: 20px 0px 30px 0px;
+  margin-bottom: 30px;
+}
+
+.Services .container {
+  margin: 0 162px;
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+
+.Services .container .contactUs {
+  display: inline-block;
+
+}
+
+.Services .container .hoverbutton {
+  display: inline-block;
+  margin-left: 235px;
+
+}
+
+
+
+#contactpic {
+  border-radius: 50%;
+  border: 8px solid rgba(253, 181, 48, .7);
+  /* margin-left: 130px; */
+  position: relative;
+  left: 30px;
+  bottom: 140px;
+  margin-left: 15px;
+  margin-top: 70px;
+
+}
+
+#happytohelp {
+  color: grey;
+  font-weight: 500;
+  border-top: 1px solid #107698;
+  border-bottom: 1px solid #107698;
+  width: 260px;
+  padding: 10px 0px;
+  text-align: center;
+  line-height: 1.4;
+  display: inline-block;
+  margin-top: 16px;
+  position: relative;
+  bottom: 90px;
+  right: 190px;
+}
+
+div.contactUs #separationLine {
+  position: absolute;
+  right: 830px;
+  height: 25%;
+}
+div #button h3{
+  width: 165px;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: white;
+    padding: 15px 0px 15px 50px;
+    background-color: #107698;
+    border: 2px solid #FDB530;
+    border-radius: 4px;
+    transition: .2s;
+    position: relative;
+    top: -20px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+/* .hoverbutton {
+  padding-top: 90px;
 } */
 
-section.getInTouch div.seperator1{
-  width: 2px;
-  height: 220px;
-  background-color: lightgrey;
+.hoverbutton .connectContainer {
+  min-width: 350px;
+  max-width: 350px;
+  text-align: center;
+  border-top: 4px solid #dfdfe0;
+  margin-top: 35px;
+  padding-top: 25px;
+  position: relative;
+  top: -55px;
+  right: 75px;
 }
 
-section.getInTouch div.seperator2{
-  width: 100%;
-  height: 4px;
-  background-color: lightgrey;
-  margin: 40px 0;
+
+/* .hoverbutton a #button {
+  background-color: #107698;
+  border: 2px solid #FDB530;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  width: 165px;
+  padding: 15px 0px 15px 50px;
+  transition: .2s;
+  position: relative;
+  top: -100px;
+  right: 50px;
+  margin-left: 65px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  display: inline-block;
+} */
+
+.connectContainer #linkedImg, #twitterImg, #facebookImg {
+  border: 5px solid #dfdfe0;
+  border-radius: 50%;
+  margin: 0 12px;
+  height: 5%;
+}
+div.connectContainer{
+  max-width: 400px;
+display: inline-block;
+padding-left: 80px;
 }
 
- section.getInTouch div.links img{
-   display: inline-block;
-    border: 5px solid #dfdfe0;
-    border-radius: 50%;
-    margin: 0 12px;
-    position: relative;
-    top: 0px;
-    transition: .2s;
- }
-
-section.getInTouch div.Contactuslast{
-    display: block;
-    padding: 25px 0 0px 0px;
-    position: relative;
-    top: 0px;
-    margin: 0 auto;
+ div.imgtrustedby img{
+  display: block;
+    margin: 24px auto 0;
 }
 
 .footerdarkgrey {
