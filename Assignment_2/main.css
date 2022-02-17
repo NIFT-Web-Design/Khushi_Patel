@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.4em;
+  background-color: red;
+}
+
+body{
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+}
+.subHead{
+  /* justify-content: center;
+  align-items:center; */
+  position:relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin:50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+div.mainHead{
+  position: relative;
+  display: flex;
+  padding-bottom: 24px;
+  align-items: center;
+  flex-direction: column;
+}
+.mainHead p{
+  color: #706F6F;
+  border-top:  1px solid #384D6B;
+  padding-top: 24PX;
+}
+.leftSide{
+  /* background-color: #545454; */
+  padding: 40px;
+  position: relative;
+}
+.rightSide{
+  background-color: white;
+  padding: 40px;
+  position: relative;
+}
+
+.imgBox{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 36px;
+}
+.leftSide img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainHead h2{
+color: #476FA9;
+font-size: 24px;
+margin-top: 16px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 400;
+}
+.mainHead h2 span{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.contact h3{
+  color: #476FA9;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 24px;
+  border-bottom:  1px solid #384D6B;
+  padding-bottom: 16PX;
+
+}
+.contact ul{
+  position: relative;
+}
+.contact h5{
+  position: relative;
+  color:##706F6F;
+  margin: 8px 0;
+}
+
+
+.contact h5{
+  margin-top: auto;
+  color: #545454;
+  font-weight: 400;
+}
+
+.education h3{
+  color: #476FA9;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 64px;
+  border-bottom:  1px solid #384D6B;
+  padding-bottom: 16PX;
+}
+.education {
+  margin-bottom: 24px;
+}
+.education h5{
+  color: #706F6F;
+  font-weight: 400;
+margin-top: 4px;
+margin-bottom: 4px;
+}
+.education h4{
+  color: #545454;
+  font-weight: 700;
+  position: relative;
+}
+.school{
+  padding-top: 24px;
+}
+.skills h3{
+  color: #476FA9;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 64px;
+  border-bottom:  1px solid #384D6B;
+  padding-bottom: 16px;
+}
+.skills h5{
+  margin-top: auto;
+  color: #706F6F;
+  font-weight: 400;
+}
+.rightSide .experience h3{
+  color: #476FA9;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+  border-bottom:  1px solid #384D6B;
+  padding-bottom: 16PX;
+}
+.experience h4{
+  color: #545454;
+  font-weight: 700;
+margin: 4px;
+}
+.uiUx{
+  padding-top: 16px;
+}
+.experience h5{
+  color: #706F6F;
+  font-weight: 400;
+}
+.experience  h5{
+  color: #706F6F;
+  font-weight: 400;
+  list-style: none;
+}
+
+
+.experience h5 .blueText{
+  color: #476FA9;
+  font-weight: 400;
+}
+.experienceBox{
+  margin-top: 60px;
+}
+.experienceBox h4{
+  color: #545454;
+  font-weight: 700;
+  margin: 4px;
+}
+.experienceBox h5{
+  color: #706F6F;
+  font-weight: 400;
+}
+.rightSide .projects h3{
+  color: #476FA9;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+  border-bottom:  1px solid #384D6B;
+  padding-bottom: 16PX;
+  margin-top: 64px;
+}
+.projects h4{
+  color: #545454;
+  font-weight: 700;
+margin: 4px;
+}
+.website{
+  padding-top:16px;
+  padding-bottom: 16px;
+}
+.projects h5{
+  color: #706F6F;
+  font-weight: 400;
+}
+.store h4{
+  color: #545454;
+  font-weight: 700;
+margin: 4px;
+}
+.store h5{
+  color: #706F6F;
+  font-weight: 400;
+}
+.daintyStore{
+  padding-top: 24px;
+}
+.languages h3{
+  color: #476FA9;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+  border-bottom:  1px solid #384D6B;
+  padding-bottom: 16PX;
+  margin-top: 64px;
+}
+.languages h5{
+  color: #706F6F;
+  font-weight: 400;
+}
+.portfolio h3{
+  color: #476FA9;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+  border-bottom:  1px solid #384D6B;
+  padding-bottom: 16PX;
+  margin-top: 64px;
+}
+.portfolio .link {
+    font-weight: 400;
+    margin-top: 24px;
+}
+@media (max-width:1000px)
+{
+  .subHead{
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr)
+  }
+}
+@media (max-width:600px)
+{
+  .mainHead{
+    flex-direction: column;
+  }
+  .education{
+    min-width: 20px;
+margin-bottom: 4px;
+ }
+}
